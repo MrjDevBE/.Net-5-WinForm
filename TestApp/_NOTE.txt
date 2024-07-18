@@ -1,0 +1,15 @@
+*****follow the intruction to insure the "Generate Files" button is properly working
+
+
+1. Please locate App.config first and update the key="BaseDirectory" value="FIlePATH"
+	 
+2. Using Path directory in folder C:\Users\User1\Desktop\TestApp\TestApp\TestApp\Files\1.txt -- name of files generated or existing. Files folder is already looking up by the Program along with the .txt files
+	
+Sample:
+	Using only to suply for the Value (C:\Users\User1\Desktop\TestApp\TestApp\TestApp)
+	<add key="BaseDirectory" value="C:\Users\mrjunio\Desktop\TestApp\TestApp\TestApp"/>
+
+
+*****END*****
+
+		

@@ -1,0 +1,72 @@
+This is a program prepared by a junior developer for our client Sam. 
+
+Below is the technical specification from Sam: 
+
+The application gets files from a folder, read the numeric content of the files and calculate the sum of this numbers. 
+
+1) Please create a WinForms application with four buttons ("Generate Files", "Execute", "Show current result", "Show result") and an output window. 
+
+2) The "Generate Files" button creates “Files” folder and an arbitrary number of files within this folder. It must display some UI, where an user can enter the number of files to create. Each file’s name can only contain numbers. Each of the files must be a text file whose contents include only numbers - no other characters are allowed. The file name and its contents may vary.
+
+3) The "Execute" button initiates the calculation. The application MUST get files from the Files folder in parallel. The UI must remain responsive while the calculation is in progress. 
+
+4) The "Show current result" button force the output window to display the intermediate results, while the calculation process is still running. The output window must display a list of all loaded files’ names sorted arithmetically from lowest to highest.  Use “;” as a separator between the list’s values. The next line must display a total sum of all numbers contained within the files. 
+
+5) The "Show result" button waits until the calculation results and then show the results in the output window. The output format is the same as described for the "Show current result" button. 
+
+  
+
+For example, imagine that you have the following 5 files:  
+
+name: 22, content: 1 
+
+name: 3, content: 2 
+
+name: 33, content: 3 
+
+name: 55, content 4 
+
+name 5, content 5 
+
+  
+
+The output shown by clicking the "Show result" button must be as follows: 
+
+3;5;22;33;55 
+
+Total:15 
+
+  
+
+  
+
+Sam points out the following issues: 
+
+1) The "Total" value is calculated incorrectly sometimes. 
+
+2) Sorting by numbers in file names does not work correctly. 
+
+3) The “Show result” button displays incomplete results (the “Total” value is less than expected and the list of loaded files does not include all file names). 
+
+  
+
+  
+
+We attached the source code of the application. 
+
+Please review the code and fix the issues. 
+
+
+ 
+
+Sam asks you to make a final change to your application. This is optional, but Sam would greatly appreciate it: 
+
+Add an output that displays the intermediate result each second while it is being calculated. 
+
+You can approach this task in the way that you think is right. One possible solution is the following: 
+
+1) Add a TextBox to the form’s bottom-right corner. 
+
+2) Create a timer that is launched when the “Execute” button is pressed. This timer will write the "Total" value to the added “TextBox” each second. 
+
+The timer stops when all files are loaded.

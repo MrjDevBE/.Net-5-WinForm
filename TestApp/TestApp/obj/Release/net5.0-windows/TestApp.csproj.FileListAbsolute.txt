@@ -1,0 +1,7 @@
+C:\Users\mrjunio\Desktop\Test123\New folder\TestApp\TestApp\obj\Release\net5.0-windows\TestApp.csproj.AssemblyReference.cache
+C:\Users\mrjunio\Desktop\Test123\New folder\TestApp\TestApp\obj\Release\net5.0-windows\TestApp.Form1.resources
+C:\Users\mrjunio\Desktop\Test123\New folder\TestApp\TestApp\obj\Release\net5.0-windows\TestApp.csproj.GenerateResource.cache
+C:\Users\mrjunio\Desktop\Test123\New folder\TestApp\TestApp\obj\Release\net5.0-windows\TestApp.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\mrjunio\Desktop\Test123\New folder\TestApp\TestApp\obj\Release\net5.0-windows\TestApp.AssemblyInfoInputs.cache
+C:\Users\mrjunio\Desktop\Test123\New folder\TestApp\TestApp\obj\Release\net5.0-windows\TestApp.AssemblyInfo.cs
+C:\Users\mrjunio\Desktop\Test123\New folder\TestApp\TestApp\obj\Release\net5.0-windows\TestApp.csproj.CoreCompileInputs.cache
